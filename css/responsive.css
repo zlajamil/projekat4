@@ -1,0 +1,137 @@
+/*---------------------------------------------
+
+Start Responsive CSS for Habitat Niagara 2014.
+
+---------------------------------------------*/
+
+@media (max-width: 1500px) {
+	.donate-now .donate-now-wrap {
+		right: auto;
+		left: 0;
+	}
+}
+@media (max-width: 1200px) {
+	.slider {
+		max-height: none;
+		overflow: visible;
+	}
+	.slider .carousel-inner, .carousel-inner > .item {
+		overflow: visible;
+	}
+	.slider .carousel-caption {
+		float: left;
+		position: relative;		
+		width: 100%;
+		left: 0;
+		right: 0;
+		margin: 0;
+	}
+	.slider .caption-wrap {
+		position: relative;
+		float: left;
+		width: 100%;
+		left: 0;
+		right: 0;
+		padding: 15px 20px;
+		text-align: left;
+	}
+	.slider .caption-wrap h4 {
+		font-size: 22px;
+	}
+	.slider .caption-wrap h3 {
+		font-size: 28px;
+	}
+	.slider .caption-wrap h2 {
+		font-size: 42px;
+	}
+	.donate-now {
+		display: none;
+	}
+	.privacy-police .text-center,
+	.privacy-police .text-right {
+		text-align: left !important;
+	}
+}
+@media (max-width: 992px) {
+	.real-story {
+		padding-left: 15px;
+	}
+}
+@media (max-width: 768px) {
+	header .header-information {
+		margin-top: 30px;
+	}
+	.navbar-toggle {
+		float: right;
+		clear: both;
+	}
+	#top-menu {
+		float: left;
+		width: 100%;
+	}
+	#top-menu li {
+		float: left;	
+		width: 100%;
+	}
+	#top-menu li a {
+		width: 100%;
+		text-align: center;
+	}
+	.nav > li .border {
+		display: none;
+	}
+	.left-bg,
+	.right-bg {
+		display: none;
+	}
+	.home-event-news .col-sm-6 {
+		float: left;
+		padding: 20px 15px;
+		background: #8c9b25;
+	}
+	.home-event-news .col-sm-6:first-child {
+		background: #736f9c;
+	}
+}
+@media (max-width: 580px) {
+	.header-logo {
+		width: 100%;
+		text-align: center;
+		margin-top: 25px;
+	}
+	header .header-information {
+		width: 100%;
+		text-align: center;
+	}
+	.header-number {
+		width: 100%;
+	}
+	header .header-number h3,
+	header .header-number h2 {
+		width: 100%;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	header .header-information .header-social {
+		float: none;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	header .hide-this-site a {
+		float: left;
+		width: 100%;
+		text-align: center;
+		padding: 13px 0;
+	}
+	.slider .caption-wrap h4 {
+		font-size: 20px;
+	}
+	.slider .caption-wrap h3 {
+		font-size: 48px;
+	}
+	.slider .caption-wrap h2 {
+		font-size: 34px;
+	}
+}
+
+	

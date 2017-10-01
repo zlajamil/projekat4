@@ -1,0 +1,17 @@
+/*--------------------------------------
+
+Start IE8 CSS for Gillian's Place 2014.
+
+--------------------------------------*/
+
+.carousel-control {
+	background-image: none;
+	filter:none;
+	text-shadow:none;
+	box-shadow: none;
+}
+header .header-number h2,
+header .header-number h3 {
+	float: right;
+	clear: both;
+}
